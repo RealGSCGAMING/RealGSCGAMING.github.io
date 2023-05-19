@@ -1,2 +1,2 @@
-# my site
-there is nothing here yet, im still learning how to customise webpages
+# this is my website
+im still working on it
