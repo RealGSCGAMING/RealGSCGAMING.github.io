@@ -1,8 +1,31 @@
+<!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <h1>hello welcome to my website</h1>
-    <h1>there is nothing here right now so idk</h1>
-  </body>
+<head>
+  <style>
+    /* CSS for changing color */
+    @keyframes colorChange {
+      0% { color: red; }
+      50% { color: blue; }
+      100% { color: green; }
+    }
+
+    /* CSS for button */
+    .color-changing-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff0000;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      animation: colorChange 3s infinite;
+    }
+  </style>
+</head>
+<body>
+  <!-- Button with changing color letters -->
+  <a href="https://google.com" target="_blank">
+    <button class="color-changing-button">Go to Google</button>
+  </a>
+</body>
 </html>
