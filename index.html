@@ -1,67 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Welcome to My Website</title>
   <style>
-    /* CSS for changing color */
-    @keyframes colorChange {
-      0% { color: red; }
-      50% { color: blue; }
-      100% { color: green; }
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    body {
+      font-family: 'Russo One', sans-serif;
     }
-
-    /* CSS for button */
-    .color-changing-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #ff0000;
-      color: white;
-      font-size: 400px;
-      border: none;
-      cursor: pointer;
-      animation: colorChange 1s infinite;
-      position: relative;
-    }
-
-    /* CSS for arrows */
-    .arrow {
-      position: absolute;
-      width: 50px;
-      height: 50px;
-    }
-
-    .arrow:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border-top: 2px solid red;
-      border-right: 2px solid red;
-      width: 20px;
-      height: 20px;
-      transform: rotate(45deg);
-    }
-
-    .arrow.left {
-      left: -50px;
-      top: calc(50% - 25px);
-    }
-
-    .arrow.right {
-      right: -50px;
-      top: calc(50% - 25px);
+    .welcome-text {
+      font-size: 48px;
     }
   </style>
 </head>
 <body>
-  <!-- Button with changing color letters -->
-  <div>
-    <a href="https://realgscgaming.github.io/bruh.html" target="_blank">
-      <button class="color-changing-button">go to the other page</button>
-    </a>
-    <!-- Arrows -->
-    <div class="arrow left"></div>
-    <div class="arrow right"></div>
-  </div>
+  <h1 class="welcome-text">Welcome to my website</h1>
 </body>
 </html>
