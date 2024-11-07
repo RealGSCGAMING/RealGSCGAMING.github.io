@@ -20,9 +20,7 @@ body {
 }
 
 #paddedTitle,
-#paddedBody,
-.cardTitle,
-.cardBody {
+#paddedBody {
   padding: 20px 40px;
   border-radius: 25px;
   background-color: white;
@@ -41,8 +39,7 @@ body {
   font-size: 1em;
 }
 
-#paddedButton,
-.cardButton {
+#paddedButton {
   font-size: 1.25em;
   padding: 20px 40px;
   border-radius: 25px;
@@ -56,30 +53,6 @@ body {
   transition: transform 0.1s
 }
 
-#paddedButton:hover,
-.cardButton:hover {
+#paddedButton:hover {
   transform: scale(1.05);
-}
-
-.card {
-  display: inline-block;
-}
-
-.cardRow {
-  color: black;
-  font-size: 1em;
-}
-
-.cardTitle {
-  font-size: 1.75em;
-  display: inline-block;
-  background-color: lightblue;
-}
-
-.cardButton {
-  background-color: lightgoldenrodyellow;
-}
-
-.cardBody {
-  background-color: mediumpurple;
 }
