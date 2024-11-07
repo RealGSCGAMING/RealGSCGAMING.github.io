@@ -8,6 +8,9 @@ body {
   justify-content: space-between;
   height: 100vh;
   margin: 0;
+  background: linear-gradient(45deg, #9c9c9c, #000000, mediumpurple, #616161);
+  background-size: 400% 400%;
+  animation: gradient 15s infinite alternate;
 }
 
 #mainContent {
@@ -82,4 +85,13 @@ body {
 
 .cardBody {
   background-color: mediumpurple;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
 }
