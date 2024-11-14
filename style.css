@@ -23,6 +23,7 @@ body {
   position: relative;
   margin-top: auto;
   margin-bottom: auto;
+  transition: transform 0.5s
 }
 
 #paddedTitle,
@@ -41,10 +42,12 @@ body {
 
 #paddedTitle {
   font-size: 2em;
+  transition: transform 0.5s
 }
 
 #paddedBody {
   font-size: 1em;
+  transition: transform 0.5s
 }
 
 #paddedButton,
@@ -63,12 +66,23 @@ body {
 }
 
 #paddedButton:hover,
-.cardButton:hover {
+#paddedTitle:hover {
   transform: scale(1.05);
+}
+
+#paddedBody:hover,
+.cardButton:hover,
+.cardTitle:hover {
+  transform: scale(1.1);
 }
 
 .card {
   display: inline-block;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.2);
 }
 
 .cardRow {
@@ -80,10 +94,12 @@ body {
   font-size: 1.75em;
   display: inline-block;
   background-color: lightblue;
+  transition: transform 0.5s
 }
 
 .cardButton {
   background-color: lightgoldenrodyellow;
+  transition: transform 0.5s
 }
 
 .cardBody {
