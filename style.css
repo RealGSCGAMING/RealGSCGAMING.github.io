@@ -72,7 +72,8 @@ body {
 
 #paddedBody:hover,
 .cardButton:hover,
-.cardTitle:hover {
+.cardTitle:hover,
+.cardImage:hover {
   transform: scale(1.1);
 }
 
@@ -82,7 +83,7 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .cardRow {
@@ -104,6 +105,14 @@ body {
 
 .cardBody {
   background-color: mediumpurple;
+}
+
+.cardImage {
+  margin-top: 10px;
+  height: 75px;
+  border-radius: 25px;
+  border: 2px solid black;
+  transition: transform 0.5s
 }
 
 @keyframes gradient {
