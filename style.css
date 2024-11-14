@@ -16,12 +16,13 @@ body {
   min-width: 0;
   flex-basis: 0;
   min-height: 0;
-  flex-flow: column-reverse wrap;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #paddedTitle,
