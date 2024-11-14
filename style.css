@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
   margin: 0;
 }
 
@@ -95,12 +95,12 @@ body {
 }
 
 .animate-bottom {
-  animation: slideDown 2.5s ease-out;
+  animation: slideDown 1s ease-out;
 }
 
 @keyframes slideDown {
   0% {
-    transform: translateY(100%);
+    transform: translateY(30%);
     opacity: 0;
   }
 
