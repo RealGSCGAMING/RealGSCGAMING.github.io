@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-.mainContent {
+#mainContent {
   flex-grow: 1;
   min-width: 0;
   flex-basis: 0;
@@ -24,8 +24,8 @@ body {
   margin-bottom: auto;
 }
 
-.paddedTitle,
-.paddedBody {
+#paddedTitle,
+#paddedBody {
   padding: 20px 40px;
   border-radius: 25px;
   background-color: white;
@@ -36,15 +36,15 @@ body {
   margin-right: 5px;
 }
 
-.paddedTitle {
+#paddedTitle {
   font-size: 2em;
 }
 
-.paddedBody {
+#paddedBody {
   font-size: 1em;
 }
 
-.paddedButton {
+#paddedButton {
   font-size: 1.25em;
   padding: 20px 40px;
   border-radius: 25px;
@@ -58,6 +58,6 @@ body {
   transition: transform 0.1s
 }
 
-.paddedButton:hover {
+#paddedButton:hover {
   transform: scale(1.05);
 }
